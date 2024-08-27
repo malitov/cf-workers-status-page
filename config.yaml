@@ -8,7 +8,7 @@ settings:
   allmonitorsOperational: 'Світло є!'
   notAllmonitorsOperational: 'Є проблеми зі світлом!'
   monitorLabelOperational: 'Світло є'
-  monitorLabelNotOperational: 'Без світла'
+  monitorLabelNotOperational: 'Немає світла'
   monitorLabelNoData: 'Відсутні дані'
   dayInHistogramNoData: 'Відсутні дані'
   dayInHistogramOperational: 'Все ок'
