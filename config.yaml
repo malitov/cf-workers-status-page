@@ -17,8 +17,7 @@ settings:
 monitors:
   - id: 13op # unique identifier
     name: #13 секція
-    url: 'http://178.158.239.253:2194/' # URL to fetch
-    method: GET # default=GET
+    url: 'http://178.158.239.253:2194' # URL to fetch
     expectStatus: 200 # operational status, default=200
     followRedirect: false # should fetch follow redirects, default=false
     linkable: false # allows the title to be a link, default=true
