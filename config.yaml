@@ -1,5 +1,5 @@
 settings:
-  title: 'Світло'
+  title: 'єСвітло'
   url: 'https://13.malitov.com' # used for Slack messages
   logo: logo-192x192.png # image in ./public/ folder
   daysInHistogram: 30 # number of days you want to display in histogram
@@ -7,10 +7,10 @@ settings:
 
   allmonitorsOperational: 'Світло є!'
   notAllmonitorsOperational: 'Є проблеми зі світлом!'
-  monitorLabelOperational: 'Працює'
-  monitorLabelNotOperational: 'Не працює'
+  monitorLabelOperational: 'Світло є'
+  monitorLabelNotOperational: 'Без світла'
   monitorLabelNoData: 'Відсутні дані'
-  dayInHistogramNoData: 'Нема даних'
+  dayInHistogramNoData: 'Відсутні дані'
   dayInHistogramOperational: 'Все ок'
   dayInHistogramNotOperational: ' incident(s)' # xx incident(s) recorded
 

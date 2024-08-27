@@ -64,13 +64,11 @@ export async function notifySlack(monitor, operational) {
 }
 
 export async function notifyTelegram(monitor, operational) {
-  const text = `Monitor *${monitor.name.replaceAll(
+  const text = `Світло в *${monitor.name.replaceAll(
     '-',
     '\\-',
-  )}* changed status to *${getOperationalLabel(operational)}*
-  ${operational ? '✅' : '❌'} \`${monitor.method ? monitor.method : 'GET'} ${
-    monitor.url
-  }\` \\- 👀 [Status Page](${config.settings.url})`
+  )}* ${operational ? '✅' : '❌'} *${getOperationalLabel(operational)}*
+   \\- 👀 [Перевірити наявність світла](${config.settings.url})`
 
   const payload = new FormData()
   payload.append('chat_id', SECRET_TELEGRAM_CHAT_ID)
