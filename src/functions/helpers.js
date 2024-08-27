@@ -68,7 +68,7 @@ export async function notifyTelegram(monitor, operational) {
     '-',
     '\\-',
   )}* ${operational ? '✅' : '❌'} *${getOperationalLabel(operational)}* 
-\ 👀 [Перевірити наявність світла](${config.settings.url})`
+\👀 [Перевірити наявність світла](${config.settings.url})`
 
   const payload = new FormData()
   payload.append('chat_id', SECRET_TELEGRAM_CHAT_ID)
